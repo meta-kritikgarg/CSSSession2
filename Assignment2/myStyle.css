@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+#header{
+    width: 100%;
+    height: 50px;
+    min-width: 320px;
+    background-color: #2d3e50;
+    color: #bfc4ca;
+}
+
+#header .block-left {
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#header .block-right {
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    float: right;
+}
+
+#header .block-right a, a:visited{
+    color: #318dd6;
+    text-decoration: none;
+}
+
+#section1{
+    background-color: #318dd6;
+    height: 500px;
+    min-width: 320px;
+    overflow: auto;
+    color: #ffffff;
+}
+
+#section1 .btn{
+    background-color: #ffffff;
+    color: #57a3dd;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 2px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#section1 #line{
+    height: 500px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#section1 .block{
+    background-color: transparent;
+    padding: 30px 50px 30px 50px;
+    color: #cee4f5;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: x-large
+}
+#section p {
+    color: #8dc2e8;
+    align: justify;
+}
+
+#section2 {
+    background-color: #ffffff;
+    min-width: 320px;
+    overflow: auto;
+    color: #768492;
+}
+
+#section2 .con{
+    width: 98%;
+    padding: 0 1% 0 1%;
+
+
+
+}
+
+#section2 .sub-con {
+    display: inline-block;
+    width: 22%;
+    padding: 1%;
+    min-width: 300px;
+}
+
+#section2 .sub-con h4{
+    color: #3992d7;
+    font-weight: bold;
+}
+
+#section3 {
+    background-color: #2d3e50;
+    min-width: 320px;
+    overflow: auto;
+    color: #ced1d6;
+    padding: 2% 4% 2% 4%;
+}
+
+#section3 .con{
+    width: 60%;
+    display: inline-block;
+    vertical-align: middle;
+    min-width: 320px;
+}
+
+#section3 .pic{
+    width: 30%;
+    display: inline-block;
+    vertical-align: middle;
+    align-content: center;
+    min-width: 128px;
+
+}
+
+.note {
+    position: relative;
+    display: inline;
+    width: 25px;
+    padding: 10% 9%;
+    margin: 1% 2% 1% 2%;
+    color: white;
+    overflow: hidden;
+    font-size: 30px;
+
+}
+
+.note:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-width: 0 16px 16px 0;
+    border-style: solid;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+    box-shadow: 0 1px 1px rgba(0,0,0,0.3), -1px 1px 1px rgba(0,0,0,0.2);
+    /* Firefox 3.0 damage limitation */
+    display: block; width: 0;
+}
+
+.note.rounded {
+    -moz-border-radius: 5px 0 5px 5px;
+    border-radius: 5px 0 5px 5px;
+}
+
+.note.rounded:before {
+    border-width: 8px;
+    border-color: #fff #fff transparent transparent;
+    -moz-border-radius: 0 0 0 5px;
+    border-radius: 0 0 0 5px;
+}
+
+.yellow{
+    background: #f3c631;
+}
+.yellow:before{
+    border-color: #fff #2d3e50 #f09c33 #f09c33;
+}
+
+
+.green{
+    background: #5dbf9d;
+}
+.green:before{
+    border-color: #fff #2d3e50 #4da086 #4da086;
+}
+
+#section4{
+    background-color: #ffffff;
+    color: #6f7d8c;
+    min-width: 320px;
+    overflow: auto;
+}
+
+#section4 .form-con{
+    display: inline-block;
+    vertical-align: top;
+    min-width: 320px;
+    width: 40%;
+    padding: 0px 2% 0px 2%;
+
+}
+#section4 .form-con .btn{
+
+    display: block;
+    width: auto;
+    color: #eaeef0;
+    background: #318dd6;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 15px 5px 15px;
+    cursor: pointer;
+
+}
+#section4 .form-con label{
+    display: block;
+    color: #5a6a7b;
+    font-weight: 600;
+    padding: 5px;
+}
+
+#section4 .form-con input{
+    width: 100%;
+    border-radius: 4px;
+    border-color: #f6f6f6;
+    border-style: solid;
+    padding: 5px;
+    margin: 3px;
+    color: #5a6a7b;
+}
+
+#section4 .con{
+    display: inline-block;
+    vertical-align: top;
+    min-width: 300px;
+    width: 51%;
+    padding: 0px 2% 0px 2%;
+}
+#section4 .con h5{
+    color: #72808f;
+    font-weight: bold;
+    min-width: 300px;
+
+}
+
+#footer{
+    width: 100%;
+    height: 50px;
+    min-width: 320px;
+    background-color: #2d3e50;
+    color: #bfc4ca;
+}
+
+#footer .dat {
+    display: inline-block;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
